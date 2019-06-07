@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:background="#50b0db">
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:text="¿Qué desea consultar?"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="48dp"
+        android:background="#00fdcb"
+        android:layout_margin="40dp"
+        android:layout_gravity="center"
+        android:text="TEMPERATURA"
+        android:textColor="#ff0066"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:background="#00fdcb"
+        android:text="PRECIPITACIONES"
+        android:textColor="#ff0066"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:background="#00fdcb"
+        android:text="VIENTO"
+        android:textColor="#ff0066"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="@+id/button22"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+
+</android.support.constraint.ConstraintLayout>
